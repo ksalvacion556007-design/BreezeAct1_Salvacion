@@ -10,19 +10,19 @@
             <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900">
                     {{ __("You're logged in!") }}
-                    <x-primary-button onclick="window.location.href='{{ route('rooms.view') }}'">
+                    <x-primary-button onclick="window.location.href='{{ route('rooms.index') }}'">
                         Go to Rooms View
                     </x-primary-button>
-                    <x-primary-button onclick="window.location.href='{{ route('booking.view') }}'">
+                    <x-primary-button onclick="window.location.href='{{ route('bookings.index') }}'">
                         Go to Booking View
                     </x-primary-button>
-                    <x-primary-button onclick="window.location.href='{{ route('bookinglist.view') }}'">
+                    <x-primary-button onclick="window.location.href='{{ route('bookinglist.index') }}'">
                         Go to Booking List View
                     </x-primary-button>
-                    <x-primary-button onclick="window.location.href='{{ route('guest.view') }}'">
-                        Go Guest to View
+                    <x-primary-button onclick="window.location.href='{{ route('guests.index') }}'">
+                        Go to Guest View
                     </x-primary-button>
-                    <x-primary-button onclick="window.location.href='{{ route('payment.view') }}'">
+                    <x-primary-button onclick="window.location.href='{{ route('payments.index') }}'">
                         Go to Payment View
                     </x-primary-button>
                 </div>
